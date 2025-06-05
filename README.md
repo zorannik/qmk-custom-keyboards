@@ -6,7 +6,11 @@ This repository holds partial configuration for custom handwired keyboards, that
 
 ## Redox
 
-Cheap amazon pro-micro clone
+Cheap amazon pro-micro clone used in redox handwired keyboard
+To build the firmware use:
+
+- `make handwired/zoki_redox:zz:avrdude` for my lily58 compatible layout
+- or `make handwired/zoki_redox:default:avrdude` for default layout
 
 ## zoki9
 
